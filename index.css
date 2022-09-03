@@ -10,8 +10,7 @@
 
 /* This is a class for navbar which is cusomizing the navbar */
 .navbarclass {
-    background-color: #e76726;
-    color: white;
+    color:#e76726;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -42,7 +41,7 @@
     margin-bottom: 8%;
     font-size: 2.5vw;
     margin-left: 5vw;
-    color: #FF7F3F;
+    color: #b5b8bd;
 
 }
 
@@ -58,15 +57,18 @@
 
 /* Bootstrap button that takes you to the Google Maps website    */
 .visit {
-    background-color: #cc5a21;
-    margin-bottom: 2vw;
-    padding: 1px 8vw;
+    color:#173161;
+    background-color: white;
+    margin-bottom: 8vw;
+    padding: 1px 5vw;
+    border-radius:1%;
     margin-left: 10%;
 }
 
 /* Bootstrap button that takes you to Google Maps and this is its hover state */
 .visit:hover {
-    background-color: #FF7F3F;
+    background-color: rgb(228, 217, 217);
+    color:#102f6a;
 }
 
 /* This is just a precausionary measure just Ignore */
@@ -83,14 +85,15 @@ a {
 /* This adds a hover state to the navbar links i.e Home , Find Us */
 .b:hover {
     color: #FF7F3F;
-    transition: 0.3s;
+    
     /* text-decoration:overline; */
-    border: 1px solid white;
+    border: 1px solid black;
+    padding-left:5px;
 }
 
 /*  Contrast of White and Orange */
 .orange{
-    background-color:#e76726;
+    background-color:#1F4690;
     color:white;
 }
 
@@ -98,7 +101,7 @@ a {
 .dark {
    
     overflow: hidden;
-    background-image: url("images/truck3.jpeg");
+    background-image: url("images/truck5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -118,12 +121,18 @@ a {
 .icon {
 
     padding-right: 4%;
-    color: #e76726;
+    color: #1F4690;
 }
 
 /* hover state to the icons of FontAwesome */
 .icon:hover {
-    color: #ae4511;
+    color: #0c3074;
+}
+
+.brand1{
+    width:100%;
+    height:auto;
+    font-size:100%;
 }
 
 /* Some breakpoints to make the website responsive on Mobile */
@@ -132,6 +141,12 @@ a {
         margin-left: 10vw;
     }
 
+}
+@media(max-width:580px){
+    .brand1{
+        font-size:0.4em;
+        width:1%;
+    }
 }
 
 /* Class for Gallery Section  */
