@@ -1,0 +1,279 @@
+
+
+
+
+/* If you want to make the background orange just use the orange class in the tag that you want to change */
+
+
+
+
+
+/* This is a class for navbar which is cusomizing the navbar */
+.navbarclass {
+    background-color: #e76726;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* This is a class that add style to the HomePage of the Website */
+.mainpage {
+    padding-top: 6%;
+    overflow: hidden;
+    padding-bottom: 5%;
+
+}
+
+
+/* This is the main heading of the homepage New Falcon Hazara */
+.heading {
+
+    margin-top: 4vw;
+    font-size: 6vw;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10%;
+}
+
+/* This is a class for homepage subheading We Carry We Care */
+.subheading {
+
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: lighter;
+    margin-bottom: 8%;
+    font-size: 2.5vw;
+    margin-left: 5vw;
+    color: #FF7F3F;
+
+}
+
+/* This class customizes the logo that is in the navbar New Falcon Hazara logo */
+.logo {
+    margin-right: 2vw;
+    border: 2px solid #fdfdfd;
+
+    border-radius: 100%;
+}
+
+
+
+/* Bootstrap button that takes you to the Google Maps website    */
+.visit {
+    background-color: #cc5a21;
+    margin-bottom: 2vw;
+    padding: 1px 8vw;
+    margin-left: 10%;
+}
+
+/* Bootstrap button that takes you to Google Maps and this is its hover state */
+.visit:hover {
+    background-color: #FF7F3F;
+}
+
+/* This is just a precausionary measure just Ignore */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* This adds a hover state to the navbar links i.e Home , Find Us */
+.b:hover {
+    color: #FF7F3F;
+    transition: 0.3s;
+    /* text-decoration:overline; */
+    border: 1px solid white;
+}
+
+/*  Contrast of White and Orange */
+.orange{
+    background-color:#e76726;
+    color:white;
+}
+
+/* This is mainpage of website and i have added image to it  */
+.dark {
+   
+    overflow: hidden;
+    background-image: url("images/truck3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    color: rgb(255, 255, 255);
+
+}
+
+/*  This is i.e Accracy, etc and i have cstomized colour  */
+.offer {
+
+    color: grey;
+    padding: 6%;
+}
+
+/* Fontawesome icons that are added in accurcy etc */
+.icon {
+
+    padding-right: 4%;
+    color: #e76726;
+}
+
+/* hover state to the icons of FontAwesome */
+.icon:hover {
+    color: #ae4511;
+}
+
+/* Some breakpoints to make the website responsive on Mobile */
+@media(max-width:578px) {
+    .subheading {
+        margin-left: 10vw;
+    }
+
+}
+
+/* Class for Gallery Section  */
+.gallery {
+    font-family: 'Playfair Display', serif;
+    color: #e76726;
+    text-align: center;
+    padding: 3%;
+}
+
+/* This is heading to the Map Section */
+.mapHeading {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1.3%;
+    font-family: 'Playfair Display', serif;
+
+    font-weight: bolder;
+
+}
+
+/* These are images that are inside the Gallery Section */
+.imagesOfGallery {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+    width: 50%;
+}
+
+/* 
+-------This is carousel images gallery ------------------ */
+.d-block {
+
+    width: 300px;
+    height: 300px;
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!-------End-------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* 
+!!!!!!!!!!!!!!!!!!!!!-----EXTRA CODE---------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* .hr{
+    margin:auto;
+ margin-top:4%;   
+    border-style:none;
+    border-top-style: dotted ;
+    border-width: 1vw;
+    width:14%;
+ } */
+
+
+
+/* @media(max-width:775px){
+.truckimage{
+width:10%;
+}
+.heading{
+    font-size:12vw;
+}
+} */
+/* @media(max-width:601px){
+    .heading{
+        margin:auto;
+        text-align:center;
+    }
+    .subheading{
+        text-align:center;
+    }
+    .truckimage{
+        display:none;
+    }
+    .visit{
+        margin-left:38vw;
+    }
+} */
+
+
+
+
+/* The switch - the box around the slider */
+/* .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  } */
+
+/* Hide default HTML checkbox */
+/* .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+   */
+/* The slider */
+/* .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+   */
+/* .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 0px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+   */
+/* input:checked + .slider {
+    background-color: #293462;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #293462;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+   */
+/* Rounded sliders */
+/* .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+   */
