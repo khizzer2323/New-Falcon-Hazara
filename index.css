@@ -17,9 +17,9 @@
 
 /* This is a class that add style to the HomePage of the Website */
 .mainpage {
-    padding-top: 6%;
+    padding-top: 10vw;
     overflow: hidden;
-    padding-bottom: 5%;
+    padding-bottom: 10vw;
 
 }
 
@@ -32,7 +32,7 @@
     font-family: 'Playfair Display', serif;
     margin-left: 10%;
 }
-
+    
 /* This is a class for homepage subheading We Carry We Care */
 .subheading {
 
@@ -44,7 +44,14 @@
     color: #b5b8bd;
 
 }
-
+.introduction{
+    color:gray;
+    width:10%;
+}
+.introductionHeading{
+    color:gray;
+background-color:white;
+}
 /* This class customizes the logo that is in the navbar New Falcon Hazara logo */
 .logo {
     margin-right: 2vw;
@@ -101,7 +108,7 @@ a {
 .dark {
    
     overflow: hidden;
-    background-image: url("images/truck5.jpg");
+    background-image: url("images/truck4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -152,7 +159,7 @@ a {
 /* Class for Gallery Section  */
 .gallery {
     font-family: 'Playfair Display', serif;
-    color: #e76726;
+    color:#1F4690;
     text-align: center;
     padding: 3%;
 }
