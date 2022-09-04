@@ -48,18 +48,24 @@
 
 }
 .introduction{
-       padding-top:5%;
+    border:2px solid white;
+    margin:5% 20%;
+    color:white;
+       padding-top:3%;
+       padding-bottom:2%;
+       box-shadow: 19px 8px  19px 8px #888888;
+       background-color:#1F4690;
        color:black;
        position:relative;
     
 }
 .introductionHeading{
-    color:#173161;
+    color:white;
     text-align:center;    
 }
 .introductionPara{
-    width:50%;
-    color:gray;
+    width:75%;
+    color:white;
     margin:auto;
     text-align:center;
 }
@@ -78,8 +84,8 @@
     color:#173161;
     background-color: white;
     margin-bottom: 8vw;
-    padding: 1px 8vw;
-    border-radius:1%;
+    padding: 1px 12%;
+    border-radius:2%;
     margin-left: 10%;
 }
 
@@ -227,6 +233,12 @@ a {
     }
 }
 
+@media(max-width:470px){
+    .heading{
+        padding-top: 3em;
+    }
+}
+
 
 
 /* Class for Gallery Section  */
@@ -270,7 +282,20 @@ a {
 
 
  .hr{
-box-shadow: 2px 2px black; 
+box-shadow: 3px black; 
+background-color:white;
+border-style: none;
+border-top-style: solid;
+height:0.3px;
+}
+
+.footer{
+    background-color:#365a9c;
+    color:white;
+    margin:auto;
+    text-align:center;
+    padding-top:250px;
+   padding-bottom:3px;
 }
 
 
