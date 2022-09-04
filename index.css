@@ -10,11 +10,8 @@
 
 /* This is a class for navbar which is cusomizing the navbar */
 .navbarclass {
-    position:fixed;
-    width:100%;
-    z-index: 1;
-    background-color:white;
-    padding-left: 5%;
+    
+        padding-left: 5%;
     padding-right: 5%;
 }
 
@@ -30,10 +27,11 @@
 /* This is the main heading of the homepage New Falcon Hazara */
 .heading {
 
-    margin-top: 11vw;
+    margin-top: 6vw;
     font-size: 6vw;
     font-family: 'Playfair Display', serif;
     margin-left: 10%;
+color:#1F4690;
 }
     
 /* This is a class for homepage subheading We Carry We Care */
@@ -44,7 +42,7 @@
     margin-bottom: 8%;
     font-size: 2.5vw;
     margin-left: 5vw;
-    color: #b5b8bd;
+    color: #1F4690;
 
 }
 .introduction{
@@ -64,7 +62,7 @@
     text-align:center;    
 }
 .introductionPara{
-    width:75%;
+    width:80%;
     color:white;
     margin:auto;
     text-align:center;
@@ -81,8 +79,8 @@
 
 /* Bootstrap button that takes you to the Google Maps website    */
 .visit {
-    color:#173161;
-    background-color: white;
+    color:white;
+    background-color: #1F4690;
     margin-bottom: 8vw;
     padding: 1px 12%;
     border-radius:2%;
@@ -91,8 +89,8 @@
 
 /* Bootstrap button that takes you to Google Maps and this is its hover state */
 .visit:hover {
-    background-color: rgb(228, 217, 217);
-    color:#102f6a;
+    background-color: #365a9c;
+    color:white;
 }
 
 /* This is just a precausionary measure just Ignore */
@@ -109,7 +107,7 @@ a {
 /* This adds a hover state to the navbar links i.e Home , Find Us */
 .b:hover {
     color: #173161;
-    
+    background-color:rgb(248, 248, 248);
     /* text-decoration:overline; */
     border: 1px solid #1F4690;
     padding-left:5px;
@@ -125,7 +123,7 @@ a {
 .dark {
    
     overflow: hidden;
-    background-image: url("images/truck4.jpg");
+    background-image: url("images/truck6.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -170,6 +168,10 @@ a {
     .brand1{
         font-size:0.4em;
         width:1%;
+    }
+
+    .visit{
+        padding:2px 10px;
     }
 }
 @media(max-width:732px){
