@@ -1,0 +1,21 @@
+<%-include("partials/blogheader")-%>
+
+
+
+    <h1>Home</h1>
+
+    <p><span style="font-size:1.2em; font-weight:bolder;">Welcome to New Falcon Hazara!</span><br> We have started blogs
+        to give you access to our all recent and future coming projects. You can subscribe to our blog posts for
+        absolutely no cost. We highly recommend this so that you can stay updated about all the prices and other stuff.
+        You can also write your Own blogs without any restrictions so that you can tell us how we can improve our
+        services. We say what we deliever. <br><span style="font-weight:bolder;">"We Carry We Care"</span></p>
+
+<% for(i=0; i<blogTitle.length; i++){ %>
+
+
+        <h4><%=blogTitle[i]%></h4>
+      <p><%=blogBody[i].substring(0,300)+"......." %><a href=" /blogs/:<%=blogTitle%>">Read more</a></p>
+
+    <%}%>
+
+    <%-include("partials/blogfooter")-%>

@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: #1F4690;
+    color: white;
+}
+
+.logo {
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.b:hover {
+    color: white;
+    text-decoration:overline;
+    transition:none;
+}
+
+h1 {
+    color: #1F4690;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    padding: 5% 10% 3% 10%;
+
+}
+h4{
+    color: #1F4690;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    padding: 5% 10% 3% 10%;
+
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+    padding: 0% 10%;
+    font-size: 1em;
+}
+
+.blogfooter {
+    background-color: #1F4690;
+    color: white;
+    padding: 59px;
+padding-bottom:20px;
+    position: relative;
+    padding-left:1px;
+    margin-left:none;   
+    top: 250px;
+}
+i{
+    padding-left:100%;
+    padding-bottom:59px;
+    position:relative;
+    bottom:20px;
+    font-size:2rem;
+}
+
+/* Compose Page CSS  */
+
+input[type="text"] {
+
+    outline: none;
+    min-height: 35px;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+textarea {
+    min-height: 200px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.btn {
+    margin-top: 3%;
+}

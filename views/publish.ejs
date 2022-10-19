@@ -1,0 +1,14 @@
+<%-include("partials/blogheader")-%>
+
+<h1 style="margin-bottom:none; padding-bottom:none;">Compose:</h1>
+  <form method="post" action="/publish">
+    
+<div class="input-group mb-3">
+  <input type="text" class="form-control"  placeholder="Blog Title ......." autofocus name="blogTitle">
+  </div>
+  <div class="input-group">
+    <textarea class="form-control" name="blogBody" placeholder="Start writing your blog here .........." ></textarea>
+  </div>
+ <center> <button class="btn btn-lg btn-outline btn-success ">Publish</button></center>
+</form>
+<%-include("partials/blogfooter")-%>
