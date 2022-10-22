@@ -13,7 +13,7 @@
 <% for(i=0; i<blogTitle.length; i++){ %>
 
 
-        <h4><%=blogTitle[i]%></h4>
+        <a href="/blogs/:<%=blogTitle%>"><h4><%=blogTitle[i]%></h4></a>
       <p><%=blogBody[i].substring(0,300)+"......." %><a href=" /blogs/:<%=blogTitle%>">Read more</a></p>
 
     <%}%>

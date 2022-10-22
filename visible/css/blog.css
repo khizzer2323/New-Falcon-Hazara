@@ -1,10 +1,13 @@
 body {
     background-color: rgb(255, 255, 255);
+    min-height:100%;
 }
+
 
 .navbar {
     background-color: #1F4690;
     color: white;
+  min-height:7%;
 }
 
 .logo {
@@ -39,25 +42,13 @@ p {
 
     font-family: 'Roboto', sans-serif;
     padding: 0% 10%;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .blogfooter {
     background-color: #1F4690;
     color: white;
-    padding: 59px;
-padding-bottom:20px;
-    position: relative;
-    padding-left:1px;
-    margin-left:none;   
-    top: 250px;
-}
-i{
-    padding-left:100%;
-    padding-bottom:59px;
-    position:relative;
-    bottom:20px;
-    font-size:2rem;
+    font-size:0.9em;
 }
 
 /* Compose Page CSS  */
@@ -82,3 +73,53 @@ textarea {
 .btn {
     margin-top: 3%;
 }
+
+
+
+/* responsive section !!!!!!!!!!! */
+@media(max-width:534px){
+    .blogfooter{
+        margin-top:600px;
+    }
+}
+
+@media(max-width:371px){
+    .blogfooter{
+        margin-top:2000px;
+    }
+}
+/* footer stick to bottom */
+html {
+    position: relative;
+    min-height: 100%;
+    }
+    body {
+    margin: 0 0 100px; 
+    font-family: sans-serif;
+    }
+    .content { 
+    padding: 15px; 
+    box-sizing: border-box;
+    text-align: center;
+    padding:50px;
+    }
+    footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    color:#FFFFFF; 
+    background: #06303A;
+    font-size:1.5em;
+    text-align: center;
+    line-height:100px;
+    
+    }
+    .i{
+        font-size:1.8em;
+        position:absolute;
+        right:6%;
+        top:40px;
+
+    }
